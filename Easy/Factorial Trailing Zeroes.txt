@@ -3,9 +3,9 @@ class Solution {
 	
         // https://leetcode.com/problems/factorial-trailing-zeroes/
 			
-		// if the number passed n is 0 - means 0! = 1 , which doesn't have any trailingZeroes - return 0
+	// if the number passed n is 0 - means 0! = 1 , which doesn't have any trailingZeroes - return 0
 		
-		// for any factorial to have trailingZeroes it should be multiple of 2 and 5. However, the number of 2s as factor are more than 5s for a
+	// for any factorial to have trailingZeroes it should be multiple of 2 and 5. However, the number of 2s as factor are more than 5s for a
 	
 	   // The logic is to return the minimum of 2 or 5 which means 5s will always be less
 
